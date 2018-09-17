@@ -4,4 +4,8 @@ https://www.thatjsdude.com/interview/js2.html
 
 2. Arrays. What is common with Object? Name standart functions of Array. `length` property and it's behavior with empty elements and redefinition.
 
-3.
+3. Prototype Chain. hasOwnProperty. Classes in JS.
+
+4. What is Callbacks? How event loop works? Story about callback hell. Promise. all, race, reject, resolve. Async/Await. Error first style.
+
+5.

@@ -4,7 +4,7 @@
 
 let cat = {
   voice: "Meow!",
-  say: () => {
+  say: function() {
     console.log(this.voice);
   }
 };
@@ -19,3 +19,4 @@ dog.stealedSay = cat.say.bind(dog);
 cat.say();
 dog.borrowedSay();
 dog.stealedSay();
+(cat && cat.say)();
